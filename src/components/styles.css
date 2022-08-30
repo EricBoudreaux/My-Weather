@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: url("../img/bg_day_clear.png") !important;
+    background-size: cover !important;
+    overflow: hidden
+}
+.main {
+    background: rgba(0, 0, 0, .4);
+    margin: 1%;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.area {
+    font-size: 8vw;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 3px solid white;;
+}
+.day {
+    margin-top: 15px;
+    font-size: 3vw;
+}
+.temp {
+    font-size: 10vw;
+    display: inline;
+}
+.feels {
+    font-size: 2.5vw;
+}
+.low-high-temp {
+    margin: 0 5px;
+    font-size: 3vw;
+    display: inline;
+}
+.description {
+    text-transform: capitalize;
+    font-size: 4.5vw;
+}
+.space-around {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3vw;
+}
+.refresh-btn {
+    background: none;
+    border: solid 2px white;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px
+}
+.update {
+    margin-top: 20px;
+    font-size: 2vw;
+}
+@media only screen and (min-width: 900px) {
+    .area {
+        font-size: 6vw;
+    }
+    .day {
+        font-size: 1.5vw;
+    }
+    .temp {
+        font-size: 7vw;
+    }
+    .feels {
+        font-size: 1.5vw;
+    }
+    .low-high-temp {
+        font-size: 1.5vw;
+    }
+    .description {
+        font-size: 2.5vw;
+    }
+    .space-around {
+        font-size: 1.5vw;
+    }
+    .update {
+        font-size: 1vw;
+    }
+  }
